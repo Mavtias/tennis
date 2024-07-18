@@ -4,14 +4,14 @@
 This project involves cleaning, filtering, and analyzing a dataset of ATP tennis matches from 1970(ish) to 2024. 
 The main objectives are to prepare the dataset for analysis and create functions to extract meaningful insights about players' performances.
 
-<h3>Dataset Cleaning and Preparation</h3>
+Dataset Cleaning and Preparation
 -  Reading the Data
 -  Load datasets for matches from 2000 to 2024 (Feb)
 -  Concatenate these datasets into a single DataFrame.
 -  Dropping Unnecessary Columns for the analysis 
 -  Remove columns that are not required for the analysis.
 
-<h3>Date Formatting</h3>
+Date Formatting
 -  Convert the tourney_date column to a datetime format.
 -  Filter the data to include only matches from the year 2000 onwards.
 -  Focusing on Winner Statistics
@@ -43,7 +43,7 @@ Comprehensive Player Analysis
 
 
 
-<h2>Example Usage:</h2>
+Example Usage:
 -  print(analysis(matches, "novak djokovic"))
 
 
